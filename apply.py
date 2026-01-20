@@ -43,7 +43,8 @@ print("\n\n---- part 2, working with a list of integers ---")
 # convert your string into a list of integers
 # your variable should look like this:
 # [3, 1, 4, 1, 5, 9, 2, 6, 5, 3, 5, 8, 9, 7, 9, 3, 2, 3, 8, 4, 6, 2, 6, 4, 3, 3, 8, 3, 2, 7, 9]
-# hint: create a new list using list comprehension to iterate through 'pi'
+# hint: create a new list by looping through each 'digit' and convert to int
+# (list comprehension can be used)
 
 
 
