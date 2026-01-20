@@ -1,74 +1,41 @@
-# ---------- part 1, a mixed list -------------
-print("\n\n----a list with mixed types and bad data----")
-data = ['8', '3', '4', '5', '2', ",", '4', '0', '3', '8', '2', '1', '-3', '-5', '-1', ".", 6, 6, 4, 1, -5, 9, 8, 
-6, 7, "bologna", 5, 0, 4, 8, 9, 9, "\n", 6, '0', 9, 1]
-# our list is supposed to only contain integers
-# create a list of only the integer items
-# this will require you to loop through, 'try' to convert to integer, and append to a list
+# original data https://en.wikipedia.org/wiki/Wikipedia:10,000_most_common_passwords
+# the data has been modified
+
+passwords = []
+
+print("\n--- loading the 10,000 most common passwords ---")
+# open, append each line to list
 
 
 
 
-# the sensor malfunctioned! 
-# the list should only have positive integers
-# how many times did the sensor malfunction?
+print("\n--- what's in the data ---")
+print("length", )
+print("first", )
+print("last", )
+print("a slice", )
 
 
 
 
-# make a list of only the positive values
+print("\n--- analyzing the data ---")
+s = ''
+# convert to one long string, lower case
 
 
 
-
-print("\n\n---- analyzing a list of integers ----")
-# now that we have valid data:
-# find the sum and average
-# count how many items are less than 5
+# create a list of each letter and its frequency
+chars = 'abcdefghijklmnopqrstuvwxyz1234567890'
+counts = []
 
 
 
-
-# we need to count how many times each digit appears
-# make a list of tuples where each tuple is (i, count(i))
+print("here's each letter and its frequency:", counts)
 
 
 
+    
+print("\n--- search for an item ---")
 
-
-# ---------- part 2, analyzing the letters a string -------------
-print("\n\n---- part 2, analyzing the letters in a string ----")
-s = "Utilitatis causa amicitia est quaesita.\n Lorem ipsum dolor sit amet, consectetur adipiscing elit. Collatio igitur ista te nihil\n iuvat. Honesta oratio, Socratica, Platonis etiam. Primum in nostrane potestate est, quid\n meminerimus? Duo Reges: constructio interrete. Quid, si etiam iucunda memoria est\n praeteritorum malorum? Si quidem, inquit, tollerem, sed relinquo. An nisi populari fama?\n Quamquam id quidem licebit iis existimare, qui legerint. Summum a vobis bonum voluptas\n dicitur. At hoc in eo M. Refert tamen, quo modo. Quid sequatur, quid repugnet, vident. Iam\n id ipsum absurdum, maximum malum neglegi."
-# first, remove any unwanted characters from the string (remove punctuation, new lines, and spaces)
-# we'll use the .replace() function
-
-
-
-
-# or even better
-# make a list of unwanted characters
-# iterate through that, and remove
-
-
-
-
-
-# next, convert all letters to lowercase
-
-
-
-# count how many times the letter 'j' appears
-
-
-
-# lastly, we need to count how many times each letter appears
-# make a list of tuples where each tuple is (letter, count(letter))
-alpha = 'abcdefghijklmnopqrstuvwxyz'
-
-
-
-# question:
-# have the 'most common' letters changed
-# in the last 200 years?
 
 
